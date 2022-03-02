@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^kevin-renovations.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^kevin-renovations.com [NC]
+RewriteRule ^(.*)$ https://leslieson-renovation.com/$1 [L,R=301,NC]
