@@ -1,3 +1,1 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^leslieson-renovation.com [NC]
-RewriteRule ^(.*)$ http://www.kevin-renovation.com/$1 [L,R=301,NC]
+RedirectMatch 301 /kevin-renovations.com/ https://leslieson-renovation.com/home/
