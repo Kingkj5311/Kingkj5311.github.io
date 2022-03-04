@@ -1,1 +1,1 @@
-RedirectMatch 301 /kevin-renovations.com/ /leslieson-renovation.com/
+RedirectMatch 301 /kevin-renovations.com/ https://leslieson-renovation.com/home/
